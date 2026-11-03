@@ -1,0 +1,48 @@
+# ==========================================
+# MPLAB X / XC Compilers - Generated Files
+# ==========================================
+**/build/
+**/dist/
+**/debug/
+**/disassembly/
+**/*.o
+**/*.elf
+**/*.hex
+**/*.p1
+**/*.d
+**/*.s1
+**/*.lst
+
+# ==========================================
+# MPLAB X User-Specific / Private Settings
+# ==========================================
+# Disables tracking of user-specific IDE layouts and local paths
+**/nbproject/private/
+**/nbproject/Makefile-local-*
+**/nbproject/Package-*
+
+# ==========================================
+# MCC (Microchip Code Configurator) Logs
+# ==========================================
+**/*.log
+**/mcc_generated_files/*.log
+
+# ==========================================
+# Windows & Editor System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+
+# ==========================================
+# ESP-IDF Generated / Local Files
+# ==========================================
+
+**/sdkconfig.old
+**/managed_components/
+
+# Contains machine-specific compiler paths
+**/.vscode/c_cpp_properties.json
